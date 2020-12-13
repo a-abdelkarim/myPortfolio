@@ -413,13 +413,13 @@ footer {
 
 #about h2 {
     color: #374054;
-    text-shadow: 0 0 2px rgb(175, 172, 172);
+    text-shadow: 0 0 3px rgb(78, 77, 77);
 }
 
 #about p {
     color: #74808a;
     margin: 0;
-    text-shadow: 0 0 2px rgb(175, 172, 172);
+    text-shadow: 0 0 3px rgb(78, 77, 77);
 }
 
 #experience {
