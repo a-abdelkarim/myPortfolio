@@ -403,12 +403,12 @@ footer {
 
 #about:hover h2 {
 /*     color: white; */
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 3px rgb(78, 77, 77);
 }
 
 #about:hover p {
 /*     color: white; */
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 3px rgb(78, 77, 77);
 }
 
 #about h2 {
