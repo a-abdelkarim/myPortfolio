@@ -403,23 +403,23 @@ footer {
 
 #about:hover h2 {
 /*     color: white; */
-    text-shadow: 0 0 3px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(78, 77, 77);
 }
 
 #about:hover p {
 /*     color: white; */
-    text-shadow: 0 0 3px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(78, 77, 77);
 }
 
 #about h2 {
     color: #374054;
-    text-shadow: 0 0 3px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(78, 77, 77);
 }
 
 #about p {
     color: #74808a;
     margin: 0;
-    text-shadow: 0 0 3px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(78, 77, 77);
 }
 
 #experience {
