@@ -402,12 +402,12 @@ footer {
 }
 
 #about:hover h2 {
-    color: white;
+/*     color: white; */
     text-shadow: 0 0 2px white;
 }
 
 #about:hover p {
-    color: white;
+/*     color: white; */
     text-shadow: 0 0 2px white;
 }
 
