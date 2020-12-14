@@ -1,15 +1,4 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
-    Description: This file contains all the styles associated with the page
-    that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
-*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -110,7 +99,7 @@ header a {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
-    text-shadow: 0 0 2px #f3f3f3;
+    text-shadow: 0 0 1px #cac8c8;
 }
 
 header a:hover {
@@ -135,7 +124,12 @@ header.sticky {
 }
 
 #menu.active {
-    display: block
+    display: block;
+    transition: 0.5 all;
+    -webkit-transition: 0.5 all;
+    -moz-transition: 0.5 all;
+    -ms-transition: 0.5 all;
+    -o-transition: 0.5 all;
 }
 
 #mobile-menu-open {
@@ -176,11 +170,21 @@ header.sticky {
 
 #mobile-menu-close span {
     font-size: 0.5em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    transition: 0.5 all;
+    -webkit-transition: 0.5 all;
+    -moz-transition: 0.5 all;
+    -ms-transition: 0.5 all;
+    -o-transition: 0.5 all;
 }
 
 #mobile-menu-close i {
-    vertical-align: middle
+    vertical-align: middle;
+    transition: 0.5 all;
+    -webkit-transition: 0.5 all;
+    -moz-transition: 0.5 all;
+    -ms-transition: 0.5 all;
+    -o-transition: 0.5 all;
 }
 
 footer {
@@ -384,7 +388,7 @@ footer {
 #about {
     padding: 75px 15px;
     /* border-bottom: 1px solid #dcd9d9; */
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -402,24 +406,24 @@ footer {
 }
 
 #about:hover h2 {
-/*     color: white; */
-    text-shadow: 0 0 2px rgb(78, 77, 77);
+    color: #374054;
+    text-shadow: 0 0 2px rgb(175, 172, 172);
 }
 
 #about:hover p {
-/*     color: white; */
-    text-shadow: 0 0 2px rgb(78, 77, 77);
+    color: #374054;
+    text-shadow: 0 0 2px rgb(175, 172, 172);
 }
 
 #about h2 {
     color: #374054;
-    text-shadow: 0 0 2px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(175, 172, 172);
 }
 
 #about p {
     color: #74808a;
     margin: 0;
-    text-shadow: 0 0 2px rgb(78, 77, 77);
+    text-shadow: 0 0 2px rgb(175, 172, 172);
 }
 
 #experience {
@@ -431,6 +435,8 @@ footer {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #experience:hover {
@@ -494,7 +500,7 @@ footer {
     color: #374054;
     display: inline-block;
     margin: 0;
-    text-shadow: 0 0 2px rgb(70, 69, 69);
+    text-shadow: 0 0 1px rgb(70, 69, 69);
 }
 
 .vtimeline-content h4 {
@@ -502,14 +508,14 @@ footer {
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0;
-    text-shadow: 0 0 2px rgb(116, 113, 113);
+    text-shadow: 0 0 1px rgb(116, 113, 113);
 }
 
 .vtimeline-content p {
     color: #74808a;
     font-size: 0.9em;
     margin: 0;
-    text-shadow: 0 0 2px rgb(134, 134, 134);
+    text-shadow: 0 0 1px rgb(134, 134, 134);
 }
 
 .vtimeline-point {
@@ -545,18 +551,29 @@ footer {
     top: 10px;
     font-weight: 300;
     color: #374054;
-    text-shadow: 0 0 2px rgb(114, 113, 113);
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
-    text-align: center
+    /* border-bottom: 1px solid #dcd9d9; */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#education:hover {
+    background-color: rgb(194, 221, 240);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: #3469db 0 0 10px;
 }
 
 #education h2 {
     color: #374054;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    color: #374054;
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 .education-block {
@@ -570,36 +587,45 @@ footer {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    background-color: white;
 }
 
 .education-block h3 {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054
+    color: #374054;
+    color: #374054;
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 .education-block span {
     color: #74808a;
-    float: right
+    float: right;
 }
 
 .education-block h4 {
     color: #74808a;
     clear: both;
     font-weight: 500;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;
+    color: #374054;
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 .education-block p,
 .education-block ul {
     margin: 0;
     color: #74808a;
-    font-size: 0.9em
+    font-size: 0.9em;
+    color: #374054;
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 .education-block ul {
-    padding: 0 0 0 15px
+    padding: 0 0 0 15px;
+    color: #374054;
+    text-shadow: 0 0 1px rgb(114, 113, 113);
 }
 
 #projects {
@@ -624,7 +650,7 @@ footer {
 #projects h2 {
     color: #374054;
     margin-bottom: 50px;
-    text-shadow: 0 0 2px #374054;
+    text-shadow: 0 0 1px #374054;
 }
 
 .project {
@@ -633,7 +659,11 @@ footer {
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .project-image {
@@ -653,14 +683,14 @@ footer {
     font-weight: 300;
     color: #374054;
     margin: 0 0 15px 0;
-    text-shadow: 0 0 2px #374054;
+    text-shadow: 0 0 1px #374054;
 }
 
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
     font-size: 0.9em;
-    text-shadow: 0 0 2px #999ca1;
+    text-shadow: 0 0 1px #999ca1;
 }
 
 .no-image .project-info {
@@ -678,17 +708,6 @@ footer {
     -o-transition: 0.5s all;
 }
 
-.project-info a:hover {
-    background-color: #0e5e94;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
 #more-projects {
     display: none
 }
@@ -703,6 +722,7 @@ footer {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
+    margin-top: 40px;
 }
 
 #skills:hover {
@@ -827,11 +847,12 @@ footer {
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
     -o-transition: 0.5s all;
+    margin-top: 40px;
 }
 
 #contact:hover {
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-radius: 100px;
+    /* border-top-right-radius: 100px; */
     box-shadow: #70b6e6 0 0 10px;
 }
 
@@ -843,7 +864,9 @@ footer {
 
 #contact-form {
     max-width: 500px;
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 #contact-form input,
@@ -1069,4 +1092,36 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px
     }
+}
+
+.proj-link {
+    border: 1px solid #70b6e6;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.proj-link:hover {
+    background-color: #0e5e94;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.proj-link:hover a {
+    color: white;
 }
