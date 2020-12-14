@@ -1,4 +1,8 @@
-
+/*!
+    Description: This file contains all the styles associated with the page
+    that don't come from third party libraries. This file gets compiled using
+    Gulp and send to the /css folder which is then loaded on the page.
+*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -560,12 +564,6 @@ footer {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    
 }
 
 #education:hover {
@@ -1116,7 +1114,7 @@ footer {
     -o-border-radius: 5px;
 }
 
-.proj-link:hover {
+.project:hover .proj-link {
     background-color: #0e5e94;
     color: white;
     text-decoration: none;
